@@ -1,0 +1,42 @@
+.main_container {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 10px;
+    text-align: center; 
+    
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    color: blue;
+    
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    color:blue;
+}
+.hero_table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-collapse: collapse;
+   
+}
+.hero_table tr, th, td{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.main_container ul{
+    text-align: left;
+}
+
